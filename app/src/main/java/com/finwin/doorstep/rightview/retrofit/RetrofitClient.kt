@@ -29,26 +29,7 @@ class RetrofitClient {
                 .client(client)
                 .build()
         }
-        return instance
+
     }
-//
-//    fun RetrofitIfsc(): Retrofit? {
-//        if (retrofitIfsc == null) {
-////            HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
-////            logging.setLevel(HttpLoggingInterceptor.Level.BODY);
-//
-////            OkHttpClient client = getClient(token, logging, 10, TimeUnit.SECONDS);
-//            val client: OkHttpClient = OkHttpClient.Builder()
-//                .readTimeout(300, TimeUnit.SECONDS)
-//                .connectTimeout(300, TimeUnit.SECONDS)
-//                .build()
-//            retrofitIfsc = Retrofit.Builder()
-//                .baseUrl("http://www.finwintechnologies.com:82/api/")
-//                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-//                .addConverterFactory(GsonConverterFactory.create())
-//                .client(client)
-//                .build()
-//        }
-//        return retrofitIfsc
-//    }
+
 }
