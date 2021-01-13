@@ -29,7 +29,7 @@ class RetrofitClient {
                 .client(client)
                 .build()
         }
-
+            return  instance
     }
 
 }
