@@ -19,8 +19,8 @@ import java.util.*
 
 public  class LoginViewmodel() : ViewModel() {
 
-    var of_username = ObservableField("finwintech")
-    var of_password = ObservableField("finwintech")
+    var of_username = ObservableField("")
+    var of_password = ObservableField("")
     lateinit var apiInterface: ApiInterface
     var repository: LoginRepository
     var compositeDisposable:CompositeDisposable

@@ -102,7 +102,7 @@ dependencies {
 
     implementation 'com.scottyab:aescrypt:0.0.1'//encryption
     implementation 'com.github.gcacace:signature-pad:1.2.0'
-
+    implementation 'org.jsoup:jsoup:1.8.3'
 
 
 

@@ -47,14 +47,16 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout8"
-                            android:onClick="@{viewmodel::clickCashDeposit}"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="50dp"
                             android:layout_marginTop="32dp"
                             android:layout_marginEnd="50dp"
+                            android:layout_marginBottom="32dp"
                             android:background="@drawable/bg_white_button"
                             android:elevation="6dp"
+                            android:onClick="@{viewmodel::clickCashDeposit}"
+                            app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
@@ -93,6 +95,7 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout9"
+                            android:visibility="gone"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="50dp"
