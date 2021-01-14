@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.finwin.doorstep.rightview.login.LoginViewmodel" />
+            type="com.finwin.doorstep.rightviewfinance.login.LoginViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
